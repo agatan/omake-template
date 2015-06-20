@@ -1,0 +1,12 @@
+.omakedb
+OMakeroot.omc
+.omakedb.lock
+OMakefile.omc
+*.cmt
+*.cmx
+*.cmi
+*.o
+*.opt
+*.a
+*.cmxa
+*.cache
