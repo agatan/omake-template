@@ -4,7 +4,6 @@
 OCAMLINCLUDES += ../src
 
 FILES[] =
-	main_test
 
 OCAMLPACKS[] =
 	oUnit

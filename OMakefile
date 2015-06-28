@@ -1,11 +1,7 @@
 .PHONY: all clean check
 
 USE_OCAMLFIND = true
-OCAMLFLAGS = -w A -warn-error A -thread
-
-OCAMLPACKS[] =
-	core
-
+OCAMLFLAGS = -w A -thread
 
 if $(not $(OCAMLFIND_EXISTS))
 	eprintln(This project requires ocamlfind, but it was not found.)

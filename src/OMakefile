@@ -2,7 +2,22 @@
 
 .PHONY: all clean
 
+MENHIR_ENABLED = true
+
+OCAMLPACKS[] =
+	core
+	ppx_deriving.show
+	llvm
+	llvm.analysis
+	llvm.executionengine
+
 FILES[] =
+	ast
+	lexer
+	parser
+	eval
+	codegen
+	llvm_eval
 	main
 
 LIB = target
